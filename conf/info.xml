@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+	<title xml:lang="ko">멀티미디어 자동 삽입 애드온</title>
+	<description xml:lang="ko">본문에 삽입하지 않은 멀티미디어를 자동으로 삽입해줍니다.</description>
+	<version>1.0</version>
+	<date>2014-08-18</date>
+	<author email_address="izuzero@gmail.com" link="http://www.isizu.co.kr/">
+		<name xml:lang="ko">이즈야</name>
+	</author>
+	<extra_vars>
+		<var name="insert_document" type="select">
+			<title xml:lang="ko">게시글 등록</title>
+			<description xml:lang="ko">게시글을 등록할 때 멀티미디어를 자동으로 삽입합니다.</description>
+			<options value="Y">
+				<title xml:lang="ko">사용함</title>
+			</options>
+			<options value="N">
+				<title xml:lang="ko">사용하지 않음</title>
+			</options>
+		</var>
+		<var name="insert_comment" type="select">
+			<title xml:lang="ko">댓글 등록</title>
+			<description xml:lang="ko">댓글을 등록할 때 멀티미디어를 자동으로 삽입합니다.</description>
+			<options value="Y">
+				<title xml:lang="ko">사용함</title>
+			</options>
+			<options value="N">
+				<title xml:lang="ko">사용하지 않음</title>
+			</options>
+		</var>
+	</extra_vars>
+</addon>
